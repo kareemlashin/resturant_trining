@@ -1,0 +1,102 @@
+/*=============================================
+=                   media                   =
+=============================================*/
+
+
+@media (min-width: 1281px){
+    
+}
+
+
+@media (max-width: 767px) and (min-width: 768px) {
+
+}
+
+
+@media (max-width:1024px ) and (min-width:992px) {
+    header {
+        height: calc(50vh - 60px);
+        .row {
+            height: calc(50vh - 60px);
+            .col-md-6 {
+                height: calc(50vh - 60px);
+                
+    
+            }
+        }
+        .h1_shape_2 {
+            display: none;
+        }
+        
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    header {
+        height: calc(50vh - 60px);
+        .row {
+            height: calc(50vh - 60px);
+            .col-md-6 {
+                height: calc(50vh - 60px);
+                
+                h6 {
+                    font-size: 25px;
+        
+                    span {
+                        color: $main-color;
+                        font-size: 20px;
+                        font-weight: 600;
+        
+                    }
+                }
+                span,
+                p {
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 600;
+        
+                }
+            
+            }
+        }
+
+        .h1_shape_2 {
+            display: none;
+        }
+        
+    }
+}
+
+@media (max-width: 767px) and (min-width: 10px) {
+    header {
+        height: calc(100vh - 60px);
+        .row {
+            height: calc(50vh - 60px);
+            .col-md-6 {
+                height: calc(50vh - 60px);
+                
+                h6 {
+                    font-size: 25px;
+        
+                    span {
+                        font-size: 40px;
+        
+                    }
+                }
+                span,
+                p {
+                    font-size: 15px;
+        
+                }
+        
+            }
+        }
+        .h1_shape_2 {
+            display: none;
+        }
+        
+    }
+}
+/*============  End of media  =============*/
+

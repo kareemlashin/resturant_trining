@@ -1,0 +1,85 @@
+/*=============================================
+=                   nav                   =
+=============================================*/
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+nav{
+    .row{
+i{
+    font-size: 20px !important;
+}
+    
+    .call__nav{
+        h6{
+            font-size: 14px !important;
+            padding-bottom: 0px !important;
+            margin-bottom: 0px !important;
+        }
+    }
+}
+}
+/*============  End of nav  =============*/
+
+/*=============================================
+=                   nav                   =
+=============================================*/
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link{
+    color: #000 !important;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: $main-color !important;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+/*============  End of nav  =============*/
+
+nav{
+    .row{
+        margin-right: 10px;
+        margin-left: 10px;
+i{
+    color: $main-color !important;
+    font-size: 25px !important;
+    margin: auto !important;
+
+}
+.col-9,.col-3{
+    
+    padding-right: 0px;
+    padding-left: 0px;
+}
+    
+    .call__nav{
+        h6{
+            font-size: 12px !important;
+            padding-bottom: 3px !important;
+            margin-bottom: 3px !important;
+        }
+        a{
+            color: $main-color !important;
+            font-weight: 700;
+
+        }
+
+    }
+}
+}
+.fix__nav {
+    margin-bottom: 60px;
+}
+
+.navbar-brand{
+    color: $main-color !important;
+    font-weight: 800;
+    font-size: 25px !important;
+}
